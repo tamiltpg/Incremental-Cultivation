@@ -10,6 +10,8 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Use the name of your GitHub repository here
+  base: "/Incremental-Cultivation/", 
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
